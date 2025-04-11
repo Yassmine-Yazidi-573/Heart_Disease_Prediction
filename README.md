@@ -68,15 +68,13 @@ A plot was generated to display model accuracy based on the value of **k**, help
 - tidyverse  
 - class (KNN)  
 - ggplot2  
-- RMarkdown  
 
 ---
 
 ## 📁 Files in the Repo
 
 - `heart_disease_data.csv`: Cleaned dataset  
-- `knn_analysis.R`: Main R script  
-- `heart_prediction.Rmd`: RMarkdown analysis report  
+- `Rscript.R`: Main R script  
 - `README.md`: This documentation  
 
 ---
