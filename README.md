@@ -3,11 +3,6 @@
 
 This project uses the **K-Nearest Neighbors (KNN)** algorithm to predict whether a person has heart disease based on a set of health-related features. The dataset contains information about various medical characteristics, and the goal is to predict whether a person has heart disease. This is implemented in R using the `class` library for KNN classification.
 
-## Badges
-
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-
 ## Table of Contents 📜
 
 - [Introduction](#introduction)
@@ -45,7 +40,7 @@ To get started with this project, follow these steps:
 
 To run the project, execute the following code in R:
 
-```r
+r
 library(tidyverse)
 library(class)
 library(ggplot2)
