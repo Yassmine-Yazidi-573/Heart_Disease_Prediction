@@ -52,7 +52,7 @@ The dataset includes 303 patient records and features such as:
 
 ## 🔍 Prediction Example
 
-The model was also used to predict heart disease for a hypothetical patient named **Yassmine Yazidi** using the trained KNN model.
+The model was also used to predict heart disease for a hypothetical patient named **Yassmine Yazidi** (who is me LOL!)  using the trained KNN model.
 
 ---
 
