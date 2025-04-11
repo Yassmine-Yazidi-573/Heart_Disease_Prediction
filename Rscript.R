@@ -64,3 +64,13 @@ bestK=which.max(ACCU)
 bestACCU=max(ACCU)
 print(bestK)# k=5 has the best value Accuracy value of:
 print(bestACCU)# ACCU=  0.8096593
+
+#Prediction for a single patient Yassmine Yazidi:
+patient_Mrs_Yazidi=c(21,1,3,80,100,0,1,90,0,0.1,0,0,0)
+library(class)
+result=knn(train = train_label, test =patient_Mrs_Yazidi, cl =Train_label, k = 5)
+if (result == 1) {
+  print("Yassmine has a heart disease")
+} else {
+  print("Yassmine does not have a heart disease")
+}
