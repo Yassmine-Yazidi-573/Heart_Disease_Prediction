@@ -6,7 +6,6 @@ This project uses the **K-Nearest Neighbors (KNN)** algorithm to predict whether
 ## Table of Contents 📜
 
 - [Introduction](#introduction)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Code Explanation](#code-explanation)
 
@@ -16,23 +15,6 @@ The purpose of this project is to classify whether a person is at risk of having
 
 The project demonstrates data preprocessing, feature scaling, model training, and evaluation. Additionally, it showcases the use of KNN to predict the likelihood of heart disease for new patients.
 
-## Installation ⚙️
-
-To get started with this project, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/heart-disease-knn.git
-    ```
-
-2. Install the required libraries:
-    ```r
-    install.packages("tidyverse")
-    install.packages("class")
-    install.packages("ggplot2")
-    ```
-
-3. Make sure you have the dataset `heart_disease_data.csv` in the project directory. You can download it from [this link](#).
 
 ## Usage 💻
 
@@ -101,6 +83,7 @@ print(paste("Best K:", bestK, "with Accuracy:", bestACCU))
 
 # Plotting the accuracy
 plot(1:12, ACCU, type = "l", col = 2, xlab = "Value of K", ylab = "Accuracy")
+![Plot Image](path/to/your/plot.png)
 
 # Prediction for a new patient
 patient_Mrs_Yazidi = c(21, 1, 3, 80, 100, 0, 1, 90, 0, 0.1, 0, 0, 0)
