@@ -3,7 +3,7 @@
 
 ## 🧠 Project Overview
 
-This project applies the **K-Nearest Neighbors (KNN)** algorithm to predict whether a patient has heart disease based on several medical attributes. Using a real-world dataset, we cleaned, normalized, and trained a machine learning model in R to classify heart disease presence.
+This project applies the **K-Nearest Neighbors (KNN)** algorithm to predict whether a patient has heart disease based on several medical attributes. Using a real-world dataset, I cleaned, normalized, and trained a machine learning model in R to classify heart disease presence.
 
 ---
 
