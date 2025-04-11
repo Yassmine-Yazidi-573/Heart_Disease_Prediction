@@ -40,7 +40,7 @@ To get started with this project, follow these steps:
 
 To run the project, execute the following code in R:
 
-r
+```r
 library(tidyverse)
 library(class)
 library(ggplot2)
